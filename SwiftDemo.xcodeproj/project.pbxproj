@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,15 @@
 		1854C46925CC40ED00FC95F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854C46725CC40ED00FC95F1 /* LaunchScreen.storyboard */; };
 		1854C47425CC40EE00FC95F1 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854C47325CC40EE00FC95F1 /* SwiftDemoTests.swift */; };
 		1854C47F25CC40EE00FC95F1 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854C47E25CC40EE00FC95F1 /* SwiftDemoUITests.swift */; };
-		7FA33D0C23ABE150CFEC4573 /* libPods-SwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9AFD668624E70E23A788EF /* libPods-SwiftDemo.a */; };
+		1876B2FF25CCE22000E32E67 /* AppNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B2FE25CCE22000E32E67 /* AppNetWork.swift */; };
+		1876B31725CCE45200E32E67 /* AppNetWork+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B31625CCE45200E32E67 /* AppNetWork+Tools.swift */; };
+		1876B31F25CCEDEC00E32E67 /* AppDelegate+RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B31E25CCEDEC00E32E67 /* AppDelegate+RequestData.swift */; };
+		1876B32A25CCFBC800E32E67 /* HistoryDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B32925CCFBC800E32E67 /* HistoryDataViewController.swift */; };
+		1876B32F25CD01E300E32E67 /* AppStorageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B32E25CD01E300E32E67 /* AppStorageTool.swift */; };
+		1876B33425CD1AE300E32E67 /* String+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B33325CD1AE300E32E67 /* String+Tools.swift */; };
+		1876B33A25CD25EE00E32E67 /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B33925CD25EE00E32E67 /* MainService.swift */; };
+		1876B34C25CD2DAF00E32E67 /* HistoryDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876B34B25CD2DAF00E32E67 /* HistoryDataTableViewCell.swift */; };
+		CFAB3311DE54FBC26E9795EF /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86006D227600D879A496C2F1 /* Pods_SwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +56,17 @@
 		1854C47A25CC40EE00FC95F1 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1854C47E25CC40EE00FC95F1 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		1854C48025CC40EE00FC95F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1876B2FE25CCE22000E32E67 /* AppNetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetWork.swift; sourceTree = "<group>"; };
+		1876B31625CCE45200E32E67 /* AppNetWork+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppNetWork+Tools.swift"; sourceTree = "<group>"; };
+		1876B31E25CCEDEC00E32E67 /* AppDelegate+RequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RequestData.swift"; sourceTree = "<group>"; };
+		1876B32925CCFBC800E32E67 /* HistoryDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataViewController.swift; sourceTree = "<group>"; };
+		1876B32E25CD01E300E32E67 /* AppStorageTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageTool.swift; sourceTree = "<group>"; };
+		1876B33325CD1AE300E32E67 /* String+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Tools.swift"; sourceTree = "<group>"; };
+		1876B33925CD25EE00E32E67 /* MainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		1876B34B25CD2DAF00E32E67 /* HistoryDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataTableViewCell.swift; sourceTree = "<group>"; };
 		4073D8694735C75F09B6C9D6 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		86006D227600D879A496C2F1 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0FF9AAE4774731EC543FB4 /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		EC9AFD668624E70E23A788EF /* libPods-SwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA33D0C23ABE150CFEC4573 /* libPods-SwiftDemo.a in Frameworks */,
+				CFAB3311DE54FBC26E9795EF /* Pods_SwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +125,8 @@
 				1854C49625CC41E400FC95F1 /* Init */,
 				1854C49525CC41CE00FC95F1 /* Delegate */,
 				1854C49725CC41F500FC95F1 /* Main */,
+				1876B31525CCE41600E32E67 /* Extension */,
+				1876B2F025CCDD7500E32E67 /* RelayOn */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -135,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				1854C45C25CC40E900FC95F1 /* AppDelegate.swift */,
+				1876B31E25CCEDEC00E32E67 /* AppDelegate+RequestData.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -150,16 +169,61 @@
 		1854C49725CC41F500FC95F1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				1854C46025CC40E900FC95F1 /* ViewController.swift */,
 				1854C46225CC40E900FC95F1 /* Main.storyboard */,
+				1876B33825CD25D500E32E67 /* Service */,
+				1876B34225CD25FA00E32E67 /* View */,
+				1876B34125CD25F200E32E67 /* Controller */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		1876B2F025CCDD7500E32E67 /* RelayOn */ = {
+			isa = PBXGroup;
+			children = (
+				1876B2FE25CCE22000E32E67 /* AppNetWork.swift */,
+				1876B32E25CD01E300E32E67 /* AppStorageTool.swift */,
+			);
+			path = RelayOn;
+			sourceTree = "<group>";
+		};
+		1876B31525CCE41600E32E67 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1876B31625CCE45200E32E67 /* AppNetWork+Tools.swift */,
+				1876B33325CD1AE300E32E67 /* String+Tools.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1876B33825CD25D500E32E67 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1876B33925CD25EE00E32E67 /* MainService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1876B34125CD25F200E32E67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1854C46025CC40E900FC95F1 /* ViewController.swift */,
+				1876B32925CCFBC800E32E67 /* HistoryDataViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1876B34225CD25FA00E32E67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1876B34B25CD2DAF00E32E67 /* HistoryDataTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		699565C5F226A2523FD12EC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC9AFD668624E70E23A788EF /* libPods-SwiftDemo.a */,
+				86006D227600D879A496C2F1 /* Pods_SwiftDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +234,6 @@
 				8C0FF9AAE4774731EC543FB4 /* Pods-SwiftDemo.debug.xcconfig */,
 				4073D8694735C75F09B6C9D6 /* Pods-SwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -185,6 +248,7 @@
 				1854C45525CC40E900FC95F1 /* Sources */,
 				1854C45625CC40E900FC95F1 /* Frameworks */,
 				1854C45725CC40E900FC95F1 /* Resources */,
+				09DC1E66202182626716F8FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +306,7 @@
 				TargetAttributes = {
 					1854C45825CC40E900FC95F1 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1240;
 					};
 					1854C46E25CC40EE00FC95F1 = {
 						CreatedOnToolsVersion = 12.2;
@@ -301,6 +366,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09DC1E66202182626716F8FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		54A97CB4BDA9CCA95BF86990 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,8 +412,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1876B33425CD1AE300E32E67 /* String+Tools.swift in Sources */,
+				1876B31725CCE45200E32E67 /* AppNetWork+Tools.swift in Sources */,
 				1854C46125CC40E900FC95F1 /* ViewController.swift in Sources */,
 				1854C45D25CC40E900FC95F1 /* AppDelegate.swift in Sources */,
+				1876B32A25CCFBC800E32E67 /* HistoryDataViewController.swift in Sources */,
+				1876B33A25CD25EE00E32E67 /* MainService.swift in Sources */,
+				1876B34C25CD2DAF00E32E67 /* HistoryDataTableViewCell.swift in Sources */,
+				1876B2FF25CCE22000E32E67 /* AppNetWork.swift in Sources */,
+				1876B32F25CD01E300E32E67 /* AppStorageTool.swift in Sources */,
+				1876B31F25CCEDEC00E32E67 /* AppDelegate+RequestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N684KD72Z3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
@@ -517,6 +608,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jim.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -528,6 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N684KD72Z3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
@@ -537,6 +632,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jim.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
